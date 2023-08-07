@@ -1,0 +1,42 @@
+{
+  "name": "POE Extension",
+  "description": "A lot of keys for POE",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "newChat": {
+      "suggested_key": {
+        "default": "Alt+O"
+      },
+      "description": "New chat"
+    },
+    "helpPrompt1": {
+      "suggested_key": {
+        "default": "Alt+1"
+      },
+      "description": "Choose the first help prompt"
+    },
+    "helpPrompt2": {
+      "suggested_key": {
+        "default": "Alt+2"
+      },
+      "description": "Choose the second help prompt"
+    },
+    "helpPrompt3": {
+      "suggested_key": {
+        "default": "Alt+3"
+      },
+      "description": "Choose the third help prompt"
+    }
+  },
+  "permissions": ["tabs", "http://poe.com/*", "https://poe.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.poe.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

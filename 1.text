@@ -1,0 +1,4 @@
+多问题选择类：
+document.querySelector("#__next > div.PageWithSidebarLayout_centeringDiv___L9br > div > section > div.PageWithSidebarLayout_scrollSection__IRP9Y.PageWithSidebarLayout_startAtBottom__wKtfz > div > div > div.InfiniteScroll_container__kzp7X.ChatMessagesView_infiniteScroll__K_SeP > div:nth-child(31) > section.ChatMessageSuggestedReplies_suggestedRepliesContainer__JgW12 > button:nth-child(1)")
+
+document.querySelector("#__next > div.PageWithSidebarLayout_centeringDiv___L9br > div > section > div.PageWithSidebarLayout_scrollSection__IRP9Y.PageWithSidebarLayout_startAtBottom__wKtfz > div > div > div.InfiniteScroll_container__kzp7X.ChatMessagesView_infiniteScroll__K_SeP > div:nth-child(12) > section.ChatMessageSuggestedReplies_suggestedRepliesContainer__JgW12 > button:nth-child(1)")
